@@ -475,7 +475,7 @@ img {
     text-align: center;
     z-index: 10; /* 画像の上にボタンを表示するためにz-indexを設定 */
 }
-.close-btn11 {
+button.close-btn11 {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -494,6 +494,7 @@ img {
 }
 
 
+
 .close-btn:hover {
     background-color: darkred;
 }
@@ -503,7 +504,7 @@ img {
 .close-btn2:hover {
     background-color: darkred;
 }
-.close-btn11:hover {
+button.close-btn11:hover {
     background-color: darkred;
 }
 
@@ -606,6 +607,13 @@ img {
   .close-btn11:hover {
     opacity: 1;
   }
+  
+
+
+  
+
+
+
   
 
 
